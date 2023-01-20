@@ -1,0 +1,46 @@
+{
+  "config":
+  {
+    "hw_platform": ["QRD"],
+    "soc_id": ["449"]
+  },
+  "sy3133cs_0":{
+    "owner": "sns_sy3133cs",
+    ".als":{
+      "owner": "sns_sy3133cs",
+      ".config":{
+        "owner": "sns_sy3133cs",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".rgb":{
+      "owner": "sns_sy3133cs",
+      ".config":{
+        "owner": "sns_sy3133cs",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  }
+}

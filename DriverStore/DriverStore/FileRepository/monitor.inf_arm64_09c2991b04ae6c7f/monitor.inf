@@ -1,0 +1,410 @@
+; Copyright (c) Huawei Device Co., Ltd. All rights reserved
+; LCD Monitor INF/Color Profile
+
+[Version]
+signature="$WINDOWS NT$"
+Class=Monitor
+ClassGuid={4D36E96E-E325-11CE-BFC1-08002BE10318}
+Provider=%Huawei%
+CatalogFile=Monitor.CAT
+DriverVer = 03/01/2022,22.3.1.3
+
+[DestinationDirs]
+DefaultDestDir  = 11
+LCD.CopyFiles = 23         ; System\Color directory
+
+[SourceDisksNames]
+1=%SRCDISK%
+
+[SourceDisksFiles]
+profile1.icm=1
+
+[Manufacturer]
+%Huawei%=Huawei,NTamd64,NTARM64
+
+[Huawei.NTARM64]
+;Gaokun  
+%CaridEDO%    = Carid.Install, Monitor\EDOC660   ; EDO     No color profile
+%NukoagCXT%    = Nukoag.Install, Monitor\CXT60C6   ; CXT   No color profile
+%NukoagBOE%    = Nukoag.Install, Monitor\BOE2873   ; CXT   No color profile
+%NukoagCSO%    = Nukoag.Install, Monitor\CSO0312   ; CXT   No color profile
+
+[Huawei.NTamd64]        
+; Euler 
+; EulerD                                   
+%RelueCMN%    = Relue.Install, Monitor\CMN0282   ; CMN         No color profile
+%RelueCMN2%    = Relue.Install, Monitor\CMN8202   ; CMN         No color profile
+%RelueJDI%    = Relue.Install, Monitor\JDI364C   ; JDI         No color profile
+%RelueTMX%   = Relue.Install, Monitor\TMX1300    ; TMX   No color profile
+
+; Bohr
+%RhobAUO%    = Rhob.Install, Monitor\AUO28ED   ; AUO         No color profile
+%RhobBOE%    = Rhob.Install, Monitor\BOE0872   ; BOE         No color profile
+; BohrD
+%RhobBOE2%    = Rhob.Install, Monitor\BOE0936   ; BOE         No color profile
+%RhobCMN%    = Rhob.Install, Monitor\CMN1512   ; BOE         No color profile
+%RhobTXD%    = Rhob.Install, Monitor\TXD15603   ; BOE         No color profile
+
+; Nobel
+%LebonCMN%    = Lebon.Install, Monitor\CMN1404   ; CMN         No color profile
+%LebonBOE%    = Lebon.Install, Monitor\BOE0877   ; BOE         No color profile
+; NobelD
+%LebonCMN2%    = Lebon.Install, Monitor\CMN1415   ; CMN         No color profile
+%LebonBOE2%    = Lebon.Install, Monitor\BOE092E   ; BOE         No color profile
+
+; Hubble
+; %ElbbuhCMN%    = Elbbuh.Install, Monitor\CMN1604   ; CMN         No color profile
+; %ElbbuhBOE%    = Elbbuh.Install, Monitor\BOE0878   ; BOE         No color profile
+
+; Halley
+%YellahCMN%    = Yellah.Install, Monitor\CMN1603   ; CMN         No color profile
+%YellahCMN2%    = Yellah.Install, Monitor\CMN1604   ; CMN         No color profile
+%YellahBOE%    = Yellah.Install, Monitor\BOE0878   ; BOE         No color profile
+
+; MachC
+; MachD
+%HcamTLX%   = Hcam.Install, Monitor\TLX1388   ; TLX         No color profile
+%HcamJDI%   = Hcam.Install, Monitor\JDI422A   ; JDI         No color profile
+%HcamCSO%   = Hcam.Install, Monitor\CSO1309   ; CSO         No color profile
+
+; Wright
+; %ThgirwCMN%    = Thgirw.Install, Monitor\CMN8201   ; CMN         No color profile
+%ThgirwBOE%    = Thgirw.Install, Monitor\BOE0892   ; BOE         No color profile
+
+; Kelvin&KelvinF
+%NivlekCMN%    = Nivlek.Install, Monitor\CMN8C02   ; CMN         No color profile
+%NivlekCMN2%    = Nivlek.Install, Monitor\CMN8C03   ; CMN         No color profile
+%NivlekCMN3%    = Nivlek.Install, Monitor\CMN8C05   ; CMN         No color profile
+%NivlekBOE%    = Nivlek.Install, Monitor\BOE0893   ; BOE         No color profile
+
+
+; Heng
+%GnehCMN%    = Gneh.Install, Monitor\CMN8201   ; CMN         No color profile
+
+; Harvey
+; Faraday
+%YevrahCMN%    = Yevrah.Install, Monitor\CMN1602   ; CMN         No color profile
+; %YevrahCMN2%    = Yevrah.Install, Monitor\CMN1604   ; CMN         No color profile
+; %YevrahBOE%    = Yevrah.Install, Monitor\BOE0878   ; BOE         No color profile
+%YevrahBOE09C7%    = Yevrah.Install, Monitor\BOE09C7   ; BOE         No color profile
+
+; Dirac
+%CaridEDO%    = Carid.Install, Monitor\EDOC660   ; EDO         No color profile
+
+; Cezanne
+%EnnazecHWV%    = Ennazec.Install, Monitor\HWV4D0E   ; HWV         No color profile
+%EnnazecHWV2%    = Ennazec.Install, Monitor\HWV4E0F   ; HWV         No color profile
+%EnnazecHWV3%    = Ennazec.Install, Monitor\HWV0F4E   ; HWV         No color profile
+
+; CurieM&CurieF
+%MeirucCMN%    = Meiruc.Install, Monitor\CMNA001   ; CMN         No color profile
+%MeirucBOE%    = Meiruc.Install, Monitor\BOE092F   ; BOE         No color profile
+
+; Morgan
+; Hooke&HookeF
+%NagromTMX%   = Nagrom.Install, Monitor\TMX1420    ; TMX   No color profile
+%NagromTMX2%   = Nagrom.Install, Monitor\TMX1421    ; TMX   No color profile
+%NagromTMX3%   = Nagrom.Install, Monitor\TMX1422    ; TMX   No color profile
+%NagromCSO%   = Nagrom.Install, Monitor\CSO1408    ; CSO   No color profile
+%NagromCSO1%   = Nagrom.Install, Monitor\CSO1415    ; CSO   No color profile
+; %EkoohTMX%   = Ekooh.Install, Monitor\TMX1420    ; TMX   No color profile
+%EkoohCSO%   = Ekooh.Install, Monitor\CSO1406    ; CSO   No color profile
+%EkoohCSO1%   = Ekooh.Install, Monitor\CSO140A  ; CSO   No color profile
+%EkoohCSO2%   = Ekooh.Install, Monitor\CSO140D  ; CSO   No color profile
+%EkoohCSO3%   = Ekooh.Install, Monitor\CSO1414  ; CSO   No color profile
+%EkoohBOE%    = Ekooh.Install, Monitor\BOE2722   ; BOE    No color profile
+%EkoohBOE1%    = Ekooh.Install, Monitor\BOE0AA2   ; BOE    No color profile
+%EkoohTMX%   = Ekooh.Install, Monitor\TMX1430    ; TMX   No color profile
+%EkoohTMX1%   = Ekooh.Install, Monitor\TMX1440    ; TMX   No color profile
+
+
+; Emmy&EmmyF`
+%YmmeTMX%   = Ymme.Install, Monitor\TMX1340    ; TMX   No color profile
+%YmmeTMX1%   = Ymme.Install, Monitor\TMX1350    ; TMX   No color profile
+%YmmeTMX2%   = Ymme.Install, Monitor\TMX1360    ; TMX   No color profile
+%YmmeCSO%   = Ymme.Install, Monitor\CSO130C    ; CSO   No color profile
+%YmmeCSO1%   = Ymme.Install, Monitor\CSO1312    ; CSO   No color profile
+
+;RolleF
+%FellorBOE%   = Fellor.Install, Monitor\BOE2676   ; BOE    No color profile
+%FellorBOE1%   = Fellor.Install, Monitor\BOE0A74   ; BOE    No color profile
+%FellorBOE2%   = Fellor.Install, Monitor\BOE0B08   ; BOE    No color profile
+
+[ControlFlags]
+ExcludeFromSelect=*  ; Initialization of all display model-specfic information 
+
+
+[Relue.Install]              
+AddReg=RelueScaleFactor
+
+[Relue.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+
+[Rhob.Install]              
+AddReg=RhobScaleFactor
+
+[Rhob.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+
+[Lebon.Install]              
+AddReg=LebonScaleFactor
+
+[Lebon.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+
+[Yellah.Install]              
+AddReg=YellahScaleFactor
+
+[Yellah.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+
+[Hcam.Install]              
+AddReg=HcamScaleFactor
+
+[Hcam.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+
+[Thgirw.Install]              
+AddReg=ThgirwScaleFactor
+
+[Thgirw.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+
+[Nivlek.Install]              
+AddReg=NivlekScaleFactor
+
+[Nivlek.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+
+[Gneh.Install]              
+AddReg=GnehScaleFactor
+
+[Gneh.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+
+[Yevrah.Install]              
+AddReg=YevrahScaleFactor
+
+[Yevrah.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+[Carid.Install]              
+AddReg=CaridScaleFactor
+
+[Nukoag.Install]              
+AddReg=NukoagScaleFactor
+
+
+[Ennazec.Install]              
+AddReg=EnnazecScaleFactor
+AddReg = EnnazecHDR.Inst.AddReg
+
+[EnnazecInstall.HW] 
+AddReg = EnnazecInst.HW.AddReg
+
+[Ennazec.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+[Meiruc.Install]              
+AddReg=MeirucScaleFactor
+
+[Meiruc.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+[Nagrom.Install]              
+AddReg=NagromScaleFactor
+AddReg = NagromHDR.Inst.AddReg
+
+[NagromInstall.HW] 
+AddReg = NagromInst.HW.AddReg
+
+[Nagrom.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+[Ymme.Install]              
+AddReg=YmmeScaleFactor
+
+[Ymme.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+[Ekooh.Install]              
+AddReg=EkoohScaleFactor
+
+[Ekooh.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+[Fellor.Install]              
+AddReg=FellorScaleFactor
+
+[Fellor.Install.Services]
+Include=monitor.inf
+Needs=PnPMonitor.Install.Services
+
+
+[RelueScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 225
+
+[RhobScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 125
+
+[LebonScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 125
+
+[ElbbuhScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 125
+
+[YellahScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 125
+
+[HcamScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 200
+
+[ThgirwScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 150
+
+[NivlekScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 150
+
+[GnehScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 150
+
+[YevrahScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 125
+
+[CaridScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 200
+
+[NukoagScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 200
+
+[EnnazecScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 175
+
+[MeirucScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 150
+
+[NagromScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 200
+
+[YmmeScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 200
+
+[EkoohScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 200
+
+[FellorScaleFactor]
+HKR,,PreferredScaleFactor,%REG_DWORD%, 125
+
+[NagromHDR.Inst.AddReg]
+; ****** Sample “VESA DisplayHDR 400 (1.0)” ******
+HKR,,DisplayHdrLevel, %REG_MULTI_SZ_APPEND%, 20C5A9AF-CD1A-42B1-AA71-4C96A273DEF1
+
+[NagromInst.HW.AddReg]
+HKR,,FriendlyName,,NagromHDR
+
+[EnnazecHDR.Inst.AddReg]
+; ****** Sample “VESA DisplayHDR 400 (1.1)” ******
+HKR,,DisplayHdrLevel, %REG_MULTI_SZ_APPEND%, 0D710BC2-6368-4EB2-A829-CBBD45CE3BD2
+
+[EnnazecInst.HW.AddReg]
+HKR,,FriendlyName,,EnnazecHDR
+
+
+[Strings]
+; Non-Localizable Strings
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+; Extension INFs may be added in arbitrary order, so vendors should set Append flag to ensure they all interoperate properly.
+REG_MULTI_SZ_APPEND = 0x00010008
+
+
+
+SRCDISK   = "Monitor INF File"
+
+RelueCMN    = "CMN PnP Monitor"
+RelueCMN2    = "CMN PnP Monitor"
+RelueJDI    = "JDI PnP Monitor"
+RelueTMX = "TMX PnP Monitor"
+RhobAUO    = "AUO PnP Monitor"
+RhobBOE    = "BOE PnP Monitor"
+RhobBOE2    = "BOE PnP Monitor"
+RhobCMN    = "CMN PnP Monitor"
+RhobTXD    = "TXD PnP Monitor"
+LebonCMN   = "CMN PnP Monitor"
+LebonBOE    = "BOE PnP Monitor"
+LebonCMN2   = "CMN PnP Monitor"
+LebonBOE2    = "BOE PnP Monitor"
+YellahCMN    = "CMN PnP Monitor"
+YellahCMN2    = "CMN PnP Monitor"
+YellahBOE    = "BOE PnP Monitor"
+HcamTLX	   = "TLX PnP Monitor"
+HcamJDI	   = "JDI PnP Monitor"
+HcamCSO   = "CSO PnP Monitor"
+;ThgirwCMN   = "CMN PnP Monitor"
+ThgirwBOE   = "BOE PnP Monitor"
+NivlekCMN   = "CMN PnP Monitor"
+NivlekCMN2   = "CMN PnP Monitor"
+NivlekCMN3   = "CMN PnP Monitor"
+NivlekBOE   = "BOE PnP Monitor"
+GnehCMN   = "CMN PnP Monitor"
+YevrahCMN   = "CMN PnP Monitor"
+;YevrahCMN2   = "CMN PnP Monitor"
+;YevrahBOE    = "BOE PnP Monitor"
+YevrahBOE09C7 = "BOE PnP Monitor"
+CaridEDO   = "EDO PnP Monitor"
+EnnazecHWV   = "HWV PnP Monitor"
+EnnazecHWV2   = "HWV PnP Monitor"
+EnnazecHWV3   = "HWV PnP Monitor"
+MeirucCMN   = "CMN PnP Monitor"
+MeirucBOE   = "BOE PnP Monitor"
+NagromTMX = "TMX PnP Monitor"
+NagromTMX2 = "TMX PnP Monitor"
+NagromTMX3 = "TMX PnP Monitor"
+NagromCSO = "CSO PnP Monitor"
+NagromCSO1 = "CSO PnP Monitor"
+YmmeTMX = "TMX PnP Monitor"
+YmmeTMX1 = "TMX PnP Monitor"
+YmmeTMX2 = "TMX PnP Monitor"
+YmmeCSO = "CSO PnP Monitor"
+YmmeCSO1 = "CSO PnP Monitor"
+EkoohTMX = "TMX PnP Monitor"
+EkoohTMX1 = "TMX PnP Monitor"
+EkoohCSO = "CSO PnP Monitor"
+EkoohCSO1 = "CSO PnP Monitor"
+EkoohCSO2 = "CSO PnP Monitor"
+EkoohCSO3 = "CSO PnP Monitor"
+EkoohBOE   = "BOE PnP Monitor"
+EkoohBOE1   = "BOE PnP Monitor"
+FellorBOE = "BOE PnP Monitor"
+FellorBOE1 = "BOE PnP Monitor"
+FellorBOE2 = "BOE PnP Monitor"
+NukoagCXT = "CXT PnP Monitor"
+NukoagBOE = "BOE PnP Monitor"
+NukoagCSO = "CSO PnP Monitor"
+
+Huawei  = "Huawei Device Co., Ltd."

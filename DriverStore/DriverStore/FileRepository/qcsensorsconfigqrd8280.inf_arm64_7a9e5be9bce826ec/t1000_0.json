@@ -1,0 +1,64 @@
+{
+  "config":
+  {
+    "hw_platform": ["MTP", "Dragon", "Surf", "HDK", "QRD", "RCM", "CLS", "CLSC"],
+    "soc_id": ["339", "340", "361", "356", "449"]
+  },
+  "t1000_0":{
+    "owner": "t1000",
+    ".accel":{
+      "owner": "t1000",
+      ".config":{
+        "owner": "t1000",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "2"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "4"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".gyro":{
+      "owner": "t1000",
+      ".config":{
+        "owner": "t1000",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "2"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "7"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    },
+    ".md":{
+      "owner": "t1000",
+      ".config":{
+        "owner": "t1000",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "2"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+;/*++
+;
+;Copyright (c) Microsoft Corporation All rights Reserved
+;
+;Module Name:
+;
+;    HidInjectorThp.inf
+;
+;Abstract:
+;    INF file for installing HID Injector minidriver
+;
+;--*/
+[Version]
+Signature="$WINDOWS NT$"
+Class=ThpDevice
+ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD0001}
+Provider=%ProviderString%
+DriverVer = 08/09/2022,11.41.19.413
+CatalogFile=wudf.cat
+
+; ================= Class section =====================
+
+[ClassInstall32]
+Addreg=HidInjectorClassReg
+
+[HidInjectorClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-5
+HKR,,DeviceCharacteristics,0x10001,0x100 
+HKR,,Security,,"D:P(A;;GA;;;SY)(A;;GA;;;BA)(A;;GA;;;WD)"
+
+; ================= Device section =====================
+
+[Manufacturer]
+%ManufacturerString%=Microsoft,NTARM64.6.1
+
+; Works on Win7 and later because we use inbox HID-KMDF mapper
+[Microsoft.NTARM64.6.1]
+%DeviceDesc%=HidInjectorThp, root\HidInjectorThp
+
+[HidInjectorThp.NT]
+CopyFiles=KMDriverCopy
+
+[HidInjectorThp.NT.hw]
+AddReg=HidInjectorThp_AddReg
+
+[HidInjectorThp.NT.Services]
+AddService=HidInjectorThp,0x2,HidInjectorThp_Service_Inst ;flag 0x2 sets this as the service for the device
+
+[HidInjectorThp_AddReg]
+HKR,,"LowerFilters",0x00010000,"vhf"
+
+[HidInjectorThp_Service_Inst]
+DisplayName    = %ServiceDesc%
+ServiceType    = 1
+StartType      = 3
+ErrorControl   = 1
+ServiceBinary  = %12%\HidInjectorThp.sys
+
+[HidInjectorThp.NT.Wdf]
+KmdfService=HidInjectorThp, HidInjectorThp_wdfsect
+
+[HidInjectorThp_wdfsect]
+KmdfLibraryVersion=1.15
+
+; ================= create device node ==============
+[DeviceInstall32]
+;AddDevice = ROOT\HidInjectorThp\0,,HidInjectorThp_RootDevice_Inst
+
+[HidInjectorThp_RootDevice_Inst]
+;HardwareIds = ROOT\HidInjectorThp
+
+; ================= copy files =====================
+
+[KMDriverCopy]
+HidInjectorThp.sys
+
+[SourceDisksNames]
+1=%DiskDesc%,,,
+
+[SourceDisksFiles]
+HidInjectorThp.sys=1
+
+[DestinationDirs]
+KMDriverCopy=12
+
+;---------------------------------------------------------------;
+
+[Strings]
+ProviderString     = "Huawei Device Co., Ltd."
+ManufacturerString = "Huawei Device Co., Ltd."
+ClassName          = "THP devices"
+DeviceDesc         = "THP VHF Device"
+ServiceDesc        = "THP VHF Service"
+DiskDesc           = "THP VHF Installation Disk"

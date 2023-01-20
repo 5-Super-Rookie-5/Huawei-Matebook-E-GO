@@ -1,0 +1,18 @@
+<!--
+
+Copyright (c) Microsoft Corporation
+
+All rights reserved.
+
+-->
+
+<Filters>
+   <Filter dll            = "SendToOneNoteFilter.dll"
+           clsid          = "{B503D2DB-5C97-4551-91F8-397BB7AE5EC9}"
+           name           = "Send to OneNote filter">
+           <Input   guid  = "{4d47a67c-66cc-4430-850e-daf466fe5bc4}" comment="IID_IPrintReadStream"/>
+           <Output  guid  = "{65bb7f1b-371e-4571-8ac7-912f510c1a38}" comment="IID_IPrintWriteStream"/>
+   </Filter>
+</Filters>
+
+

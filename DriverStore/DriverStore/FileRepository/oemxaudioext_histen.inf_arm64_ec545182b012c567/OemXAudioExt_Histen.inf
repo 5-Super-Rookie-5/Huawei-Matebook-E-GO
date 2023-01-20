@@ -1,0 +1,660 @@
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider    = %ProviderName%
+ExtensionId = {4627D70F-183F-C585-3C5D-8DC91CA6ABCD}
+DriverVer = 08/23/2022,25.0.2.12
+CatalogFile = oemxaudioext_histen.cat
+
+[Manufacturer]
+%OEM% = DeviceExtensions,NTamd64,NTarm64
+
+[SourceDisksNames]
+222 = %DiskId1%
+
+[SourceDisksFiles]
+act_config_Common.bin = 222
+histen_config_Common.xml=222
+histen_config_Cezanne.xml=222
+histen_config_DaqianF.xml=222
+histen_config_Morgan.xml=222
+histen_config_MorganF.xml=222
+histen_config_Emmy.xml=222
+histen_config_EmmyF.xml=222
+histen_config_Hooke.xml=222
+histen_config_HookeF.xml=222
+histen_config_Dirac.xml=222
+histen_config_DiracR.xml=222
+histen_config_CurrieM.xml=222
+histen_config_BohrE.xml=222
+histen_config_BohrD.xml=222
+histen_config_NobelD.xml=222
+histen_config_WrightD.xml=222
+histen_config_KelvinD.xml=222
+histen_config_KelvinM.xml=222
+act_config_BohrE.bin=222
+histen_config_NobelE.xml=222
+act_config_NobelE.bin=222
+histen_config_CurrieF.xml=222
+histen_config_BohrF.xml=222
+histen_config_NobelF.xml=222
+histen_config_RolleF.xml=222
+histen_config_KelvinF.xml=222
+act_config_wrightD.bin=222
+act_config_KelvinF.bin=222
+histen_config_GaoKunGen2.xml=222
+histen_config_GaoKunGen3.xml=222
+
+[DestinationDirs]
+histen_config_Common.CopyList = 10, System32\HWAudioDriver
+histen_config_Cezanne.CopyList = 10, System32\HWAudioDriver
+histen_config_DaqianF.CopyList = 10, System32\HWAudioDriver
+histen_config_Morgan.CopyList = 10, System32\HWAudioDriver
+histen_config_MorganF.CopyList = 10, System32\HWAudioDriver
+histen_config_Emmy.CopyList = 10, System32\HWAudioDriver
+histen_config_EmmyF.CopyList = 10, System32\HWAudioDriver
+histen_config_Hooke.CopyList = 10, System32\HWAudioDriver
+histen_config_HookeF.CopyList = 10, System32\HWAudioDriver
+histen_config_Dirac.CopyList = 10, System32\HWAudioDriver
+histen_config_DiracR.CopyList = 10, System32\HWAudioDriver
+histen_config_BohrE.CopyList = 10, System32\HWAudioDriver
+histen_config_NobelE.CopyList = 10, System32\HWAudioDriver
+histen_config_CurrieM.CopyList = 10, System32\HWAudioDriver
+histen_config_CurrieF.CopyList = 10, System32\HWAudioDriver
+histen_config_BohrF.CopyList = 10, System32\HWAudioDriver
+histen_config_NobelF.CopyList = 10, System32\HWAudioDriver
+histen_config_RolleF.CopyList = 10, System32\HWAudioDriver
+histen_config_KelvinF.CopyList = 10, System32\HWAudioDriver
+histen_config_BohrD.CopyList = 10, System32\HWAudioDriver
+histen_config_NobelD.CopyList = 10, System32\HWAudioDriver
+histen_config_WrightD.CopyList = 10, System32\HWAudioDriver
+histen_config_KelvinD.CopyList = 10, System32\HWAudioDriver
+histen_config_KelvinM.CopyList = 10, System32\HWAudioDriver
+histen_config_GaoKunGen2.CopyList = 10, System32\HWAudioDriver
+histen_config_GaoKunGen3.CopyList = 10, System32\HWAudioDriver
+
+[histen_config_Common.CopyList]
+histen_config_Common.xml
+act_config_Common.bin
+[histen_config_Cezanne.CopyList]
+histen_config_Cezanne.xml
+act_config_Common.bin
+[histen_config_DaqianF.CopyList]
+histen_config_DaqianF.xml
+act_config_Common.bin
+[histen_config_Morgan.CopyList]
+histen_config_Morgan.xml
+act_config_Common.bin
+[histen_config_MorganF.CopyList]
+histen_config_MorganF.xml
+act_config_Common.bin
+[histen_config_Emmy.CopyList]
+histen_config_Emmy.xml
+act_config_Common.bin
+[histen_config_EmmyF.CopyList]
+histen_config_EmmyF.xml
+act_config_Common.bin
+[histen_config_Hooke.CopyList]
+histen_config_Hooke.xml
+act_config_Common.bin
+[histen_config_HookeF.CopyList]
+histen_config_HookeF.xml
+act_config_Common.bin
+[histen_config_Dirac.CopyList]
+histen_config_Dirac.xml
+act_config_Common.bin
+[histen_config_DiracR.CopyList]
+histen_config_DiracR.xml
+act_config_Common.bin
+[histen_config_BohrE.CopyList]
+histen_config_BohrE.xml
+act_config_BohrE.bin
+[histen_config_NobelE.CopyList]
+histen_config_NobelE.xml
+act_config_NobelE.bin
+[histen_config_CurrieM.CopyList]
+histen_config_CurrieM.xml
+act_config_Common.bin
+[histen_config_CurrieF.CopyList]
+histen_config_CurrieF.xml
+act_config_Common.bin
+[histen_config_BohrF.CopyList]
+histen_config_BohrF.xml
+act_config_BohrE.bin
+[histen_config_NobelF.CopyList]
+histen_config_NobelF.xml
+act_config_BohrE.bin
+[histen_config_RolleF.CopyList]
+histen_config_RolleF.xml
+act_config_BohrE.bin
+[histen_config_KelvinF.CopyList]
+histen_config_KelvinF.xml
+act_config_KelvinF.bin
+[histen_config_BohrD.CopyList]
+histen_config_BohrD.xml
+act_config_BohrE.bin
+[histen_config_NobelD.CopyList]
+histen_config_NobelD.xml
+act_config_BohrE.bin
+[histen_config_KelvinD.CopyList]
+histen_config_KelvinD.xml
+act_config_wrightD.bin
+[histen_config_KelvinM.CopyList]
+histen_config_KelvinM.xml
+act_config_Common.bin
+[histen_config_WrightD.CopyList]
+histen_config_WrightD.xml
+act_config_wrightD.bin
+[histen_config_GaoKunGen2.CopyList]
+histen_config_GaoKunGen2.xml
+act_config_Common.bin
+[histen_config_GaoKunGen3.CopyList]
+histen_config_GaoKunGen3.xml
+act_config_Common.bin
+
+[DeviceExtension_Install]
+CopyFiles = histen_config_Common.CopyList
+[DeviceExtension_Install.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_BohrE]
+CopyFiles = histen_config_BohrE.CopyList
+[DeviceExtension_Install_BohrE.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_NobelE]
+CopyFiles = histen_config_NobelE.CopyList
+[DeviceExtension_Install_NobelE.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_CurrieM]
+CopyFiles = histen_config_CurrieM.CopyList
+[DeviceExtension_Install_CurrieM.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_CurrieF]
+CopyFiles = histen_config_CurrieF.CopyList
+[DeviceExtension_Install_CurrieF.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_Cezanne]
+CopyFiles = histen_config_Cezanne.CopyList
+[DeviceExtension_Install_Cezanne.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_DaqianF]
+CopyFiles = histen_config_DaqianF.CopyList
+[DeviceExtension_Install_DaqianF.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_Morgan]
+CopyFiles = histen_config_Morgan.CopyList
+[DeviceExtension_Install_Morgan.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_MorganF]
+CopyFiles = histen_config_MorganF.CopyList
+[DeviceExtension_Install_MorganF.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_Emmy]
+CopyFiles = histen_config_Emmy.CopyList
+[DeviceExtension_Install_Emmy.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_EmmyF]
+CopyFiles = histen_config_EmmyF.CopyList
+[DeviceExtension_Install_EmmyF.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_Hooke]
+CopyFiles = histen_config_Hooke.CopyList
+[DeviceExtension_Install_Hooke.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_HookeF]
+CopyFiles = histen_config_HookeF.CopyList
+[DeviceExtension_Install_HookeF.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_Dirac]
+CopyFiles = histen_config_Dirac.CopyList
+[DeviceExtension_Install_Dirac.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_DiracR]
+CopyFiles = histen_config_DiracR.CopyList
+[DeviceExtension_Install_DiracR.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_BohrF]
+CopyFiles = histen_config_BohrF.CopyList
+[DeviceExtension_Install_BohrF.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_NobelF]
+CopyFiles = histen_config_NobelF.CopyList
+[DeviceExtension_Install_NobelF.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_RolleF]
+CopyFiles = histen_config_RolleF.CopyList
+[DeviceExtension_Install_RolleF.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_KelvinF]
+CopyFiles = histen_config_KelvinF.CopyList
+[DeviceExtension_Install_KelvinF.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_BohrD]
+CopyFiles = histen_config_BohrD.CopyList
+[DeviceExtension_Install_BohrD.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_NobelD]
+CopyFiles = histen_config_NobelD.CopyList
+[DeviceExtension_Install_NobelD.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_KelvinD]
+CopyFiles = histen_config_KelvinD.CopyList
+[DeviceExtension_Install_KelvinD.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_KelvinM]
+CopyFiles = histen_config_KelvinM.CopyList
+[DeviceExtension_Install_KelvinM.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_WrightD]
+CopyFiles = histen_config_WrightD.CopyList
+[DeviceExtension_Install_WrightD.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_GaoKunGen2]
+CopyFiles = histen_config_GaoKunGen2.CopyList
+[DeviceExtension_Install_GaoKunGen2.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtension_Install_GaoKunGen3]
+CopyFiles = histen_config_GaoKunGen3.CopyList
+[DeviceExtension_Install_GaoKunGen3.Components]
+AddComponent = HISTENAPO,,HISTENAPO_Install
+
+[DeviceExtensions.NTarm64]
+;;GaokunGen2
+%Device.ExtensionDesc% = DeviceExtension_Install_GaoKunGen2,AUDD\VEN_QCOM&DEV_042C&SUBSYS_CLS08180
+%Device.ExtensionDesc% = DeviceExtension_Install_GaoKunGen2,AUDD\VEN_QCOM&DEV_042C&SUBSYS_CLSA8180
+;;GaokunGen3
+%Device.ExtensionDesc% = DeviceExtension_Install_GaoKunGen3,AUCD\VEN_QCOM&DEV_0629&SUBSYS_QRD08280
+%Device.ExtensionDesc% = DeviceExtension_Install_GaoKunGen3,AUCD\VEN_QCOM&DEV_0629&SUBSYS_QRD08280
+
+[DeviceExtensions.NTamd64]
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0662&SUBSYS_17AA3133
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E5321B
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E5321C
+;;Mach
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53244
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53245
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53246
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53247
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53202
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53203
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53204
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53205
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E5320C
+;;MachR
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53248
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53249
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E5324A
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E5324B
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53221
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53222
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53223
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_19E53224
+;;Euler
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1264
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1265
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1266
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1267
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1276
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1264
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1265
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1266
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1267
+;;EulerD
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1313
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1313
+;;EulerD-B
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1313
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1313
+;;BohrL
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1277
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1278
+;;NobelL
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1279
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D127A
+;;Faraday H9G
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D126F
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1270
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1271
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1272
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D126F
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1270
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1271
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1272
+;;HalleyL
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D127B
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D127C
+;;BohrD
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D127E
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D127F
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D127E
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D127F
+;;NobelD
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1302
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1303
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1302
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1303
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1255
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1256
+;;BohrD-B
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D127E
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D127F
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D127E
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D127F
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D127E
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D127F
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D127E
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D127F
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrD,INTELAUDIO\CTLR_DEV_A0C8&LINKTYPE_03&DEVTYPE_04&VEN_8086&DEV_AE34&SUBSYS_127D152D
+;;NobelD-B
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1302
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1303
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1302
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1303
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1302
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1303
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1302
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1303
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelD,INTELAUDIO\CTLR_DEV_A0C8&LINKTYPE_03&DEVTYPE_04&VEN_8086&DEV_AE34&SUBSYS_1301152D
+;;BohrB
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D125E
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D125F
+;;NobelB
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1261
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1262
+;;WrightD
+%Device.ExtensionDesc% = DeviceExtension_Install_WrightD,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1305
+%Device.ExtensionDesc% = DeviceExtension_Install_WrightD,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1306
+%Device.ExtensionDesc% = DeviceExtension_Install_WrightD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1305
+%Device.ExtensionDesc% = DeviceExtension_Install_WrightD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1306
+%Device.ExtensionDesc% = DeviceExtension_Install_WrightD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1305
+%Device.ExtensionDesc% = DeviceExtension_Install_WrightD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1306
+%Device.ExtensionDesc% = DeviceExtension_Install_WrightD,INTELAUDIO\CTLR_DEV_A0C8&LINKTYPE_03&DEVTYPE_04&VEN_8086&DEV_AE34&SUBSYS_1304152D
+;;KelvinD
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1308
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1309
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1308
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1309
+;;KelvinD-B
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5325B
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5325C
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5325D
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5325E
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5325B
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5325C
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5325D
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5325E
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1308
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1309
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinD,INTELAUDIO\CTLR_DEV_A0C8&LINKTYPE_03&DEVTYPE_04&VEN_8086&DEV_AE34&SUBSYS_1307152D
+;;BohrM 
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1320
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1321
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_1022&DEV_1637&SUBSYS_1365152D
+;;BohrM-B
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1366
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1367
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1366
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1367
+;;NobelM
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1323
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1324
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_1022&DEV_1637&SUBSYS_1368152D
+;;NobelM-B
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1369
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1370
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1369
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1370
+;;HengL
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833239
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E83323A
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E83323B
+;;KelvinL
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E83323C
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E83323D
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E83323E
+;;WrightB
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833235
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833236
+;;KelvinC
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833237
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833238
+;;MachC
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833221
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833222
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833223
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833224
+;;MachD
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E83323F
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833240
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833241
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833242
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833243
+;;MachD-B
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E83323F
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E833240
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E83323F
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E833240
+;;CurrieM
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1EC9324D
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1EC9324E
+;;CurrieM-B
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieM,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1EC9324D
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieM,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1EC9324E
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieM,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1EC93271
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieM,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1EC93272
+;;Cezanne
+%Device.ExtensionDesc% = DeviceExtension_Install_Cezanne,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_152D1326
+%Device.ExtensionDesc% = DeviceExtension_Install_Cezanne,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_152D1327
+%Device.ExtensionDesc% = DeviceExtension_Install_Cezanne,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_152D1326
+%Device.ExtensionDesc% = DeviceExtension_Install_Cezanne,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_152D1327
+;;KelvinM
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833254
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833255
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833256
+;;KelvinM-B
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinM,ACP\VEN_1022&DEV_15E2&SUBSYS_1E833E4D
+;;HengM
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833251
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833252
+%Device.ExtensionDesc% = DeviceExtension_Install,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833253
+;;EmmyM
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833257
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833258
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E833257
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E833258
+;;EmmyD
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833259
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E83325A
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E833259
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_1E83325A
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E833259
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E83325A
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E83326F
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E833270
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E833259
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E83325A
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E83326F
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_1E833270
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_1E833259
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_1E83325A
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_1E83326F
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_1E833270
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_1E833259
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_1E83325A
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_1E83326F
+%Device.ExtensionDesc% = DeviceExtension_Install_Emmy,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_1E833270
+;;EmmyF
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53269
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5326A
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5326B
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5326C
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53269
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5326A
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5326B
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5326C
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53269
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5326A
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5326B
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5326C
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53269
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5326A
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5326B
+%Device.ExtensionDesc% = DeviceExtension_Install_EmmyF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5326C
+;;HookeD
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1347
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1348
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1349
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1350
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1347
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1348
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1349
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1350
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1347
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1348
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1349
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1350
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1347
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1348
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1349
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1350
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1347
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1348
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1349
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1350
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1347
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1348
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1349
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1350
+;;HookeF
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53282
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53283
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53284
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53285
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53282
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53283
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53284
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53285
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53282
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53283
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53284
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53285
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53282
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53283
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53284
+%Device.ExtensionDesc% = DeviceExtension_Install_HookeF,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53285
+;;HookeM 
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1352
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_152D1353
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1352
+%Device.ExtensionDesc% = DeviceExtension_Install_Hooke,HDAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1353
+;;Watt
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_19E53200
+%Device.ExtensionDesc% = DeviceExtension_Install,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_19E53201
+;;Morgan
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E83325F
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E833260
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E833265
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E833266
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E833267
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E833268
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E83325F
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E833260
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E833265
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E833266
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E833267
+%Device.ExtensionDesc% = DeviceExtension_Install_Morgan,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1E833268
+;;MorganF
+%Device.ExtensionDesc% = DeviceExtension_Install_MorganF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_19E5326D
+%Device.ExtensionDesc% = DeviceExtension_Install_MorganF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_19E5326E
+%Device.ExtensionDesc% = DeviceExtension_Install_MorganF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_19E53273
+%Device.ExtensionDesc% = DeviceExtension_Install_MorganF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_19E53274
+%Device.ExtensionDesc% = DeviceExtension_Install_MorganF,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_19E5326D
+%Device.ExtensionDesc% = DeviceExtension_Install_MorganF,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_19E5326E
+%Device.ExtensionDesc% = DeviceExtension_Install_MorganF,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_19E53273
+%Device.ExtensionDesc% = DeviceExtension_Install_MorganF,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_19E53274
+;;Dirac
+%Device.ExtensionDesc% = DeviceExtension_Install_Dirac,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1EC93263
+%Device.ExtensionDesc% = DeviceExtension_Install_Dirac,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1EC93264
+%Device.ExtensionDesc% = DeviceExtension_Install_Dirac,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1EC93263
+%Device.ExtensionDesc% = DeviceExtension_Install_Dirac,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1EC93264
+;;DiracR
+%Device.ExtensionDesc% = DeviceExtension_Install_DiracR,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1EC93E65
+%Device.ExtensionDesc% = DeviceExtension_Install_DiracR,HDAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_1EC93E65
+;;BohrE
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrE,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1373
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrE,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1374
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrE,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1373
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrE,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1374
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrE,INTELAUDIO\CTLR_DEV_A0C8&LINKTYPE_03&DEVTYPE_04&VEN_8086&DEV_AE34&SUBSYS_1371152D
+;; NobelE 
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelE,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1375
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelE,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_152D1376
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelE,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1375
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelE,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_152D1376
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelE,INTELAUDIO\CTLR_DEV_A0C8&LINKTYPE_03&DEVTYPE_04&VEN_8086&DEV_AE34&SUBSYS_1372152D
+;; BohrF
+%Device.ExtensionDesc% = DeviceExtension_Install_BohrF,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_03&DEVTYPE_04&VEN_8086&DEV_AE34&SUBSYS_1495152D
+;; NobelF
+%Device.ExtensionDesc% = DeviceExtension_Install_NobelF,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_03&DEVTYPE_04&VEN_8086&DEV_AE34&SUBSYS_1398152D
+;; KelvinF
+%Device.ExtensionDesc% = DeviceExtension_Install_KelvinF,INTELAUDIO\CTLR_DEV_51C8&LINKTYPE_03&DEVTYPE_04&VEN_8086&DEV_AE34&SUBSYS_3E5D19E5
+;; CurrieF
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5327E
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5327E
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5327F
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5327F
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53280
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53280
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E53281
+%Device.ExtensionDesc% = DeviceExtension_Install_CurrieF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E53281
+;; RolleF
+%Device.ExtensionDesc% = DeviceExtension_Install_RolleF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5327A
+%Device.ExtensionDesc% = DeviceExtension_Install_RolleF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5327A
+%Device.ExtensionDesc% = DeviceExtension_Install_RolleF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5327B
+%Device.ExtensionDesc% = DeviceExtension_Install_RolleF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5327B
+%Device.ExtensionDesc% = DeviceExtension_Install_RolleF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5327C
+%Device.ExtensionDesc% = DeviceExtension_Install_RolleF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5327C
+%Device.ExtensionDesc% = DeviceExtension_Install_RolleF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F86&SUBSYS_19E5327D
+%Device.ExtensionDesc% = DeviceExtension_Install_RolleF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_1F87&SUBSYS_19E5327D
+;;DaqianF
+%Device.ExtensionDesc% = DeviceExtension_Install_DaqianF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_152D1492
+%Device.ExtensionDesc% = DeviceExtension_Install_DaqianF,INTELAUDIO\FUNC_01&VEN_14F1&DEV_20D0&SUBSYS_152D1493
+;-----------------------------------------------------
+
+[HISTENAPO_Install]
+ComponentIDs = VEN_19E5&AID_0002
+Description = "Histen Audio Effects Component"
+
+
+[Strings]
+ProviderName			= "Huawei Technologies Co. Ltd"
+OEM                  	= "HistenAPO"
+Device.ExtensionDesc 	= "Histen Audio Device Extension"
+ExtendedFriendlyName 	= "Huawei(R) Audio"
+DiskId1              	= "Histen APO Installation Disk"
+

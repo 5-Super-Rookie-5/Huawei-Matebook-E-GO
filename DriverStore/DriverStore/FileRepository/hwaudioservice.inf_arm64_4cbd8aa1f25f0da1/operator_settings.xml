@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ConfigVersion value="1.0.0"/>
+	<DefaultSettings>
+		<Applications priority="1">
+			<APP name="bluejeans.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="skype.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="skypehost.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="lync.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="viber.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="espace.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="welink.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="welinkpc.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="welinkmeeting.exe" profile="Voice2" renderOnlyProfile="Music" />
+			<APP name="hwmsdk.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="wechat.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="QQ.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="Feishu.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="zhumuClient.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="zcscpthost.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="Link Now.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="YY.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="wechatweb.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="wemeetapp.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="micromsg.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="alexa.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="lineapp.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="dingtalk.exe" profile="Voice1" renderOnlyProfile="Music" />
+			<APP name="tblive.exe" profile="Voice1" renderOnlyProfile="Music" />
+			<APP name="zoom.exe" profile="Voice2" renderOnlyProfile="Music" />
+			<APP name="CISCOCOLLABHOST.EXE" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="TeamViewer.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="GoTo.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="WhatsApp.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="Messenger.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="Telegram.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="Line.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="Discord.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="HuaweiMeeting.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="actalk.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="webmeeting.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="yyhost.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="yyexternal.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="tim.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="aliim.exe" profile="Voice" renderOnlyProfile="Music" />
+			<APP name="hwsmartaudio.exe" profile="Voice3" renderOnlyProfile="Music" />
+			<APP name="Cortana.exe" profile="Speech" renderOnlyProfile="Music" />
+			<APP name="Adobe Audition CC.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="SoundRec.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="VoiceRecorder.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="WindowsCamera.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="audacity.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="coolpro2.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="Adobe Audition.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="EVCapture.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="ApowerREC.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="luping.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="HiRecMaster.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="_capture.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="livehime.exe" profile="Record" renderOnlyProfile="Music" />
+		</Applications>
+		<Applications priority="2">
+			<APP name="WeSing.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="wmplayer.exe" profile="Music" />
+			<APP name="music.ui.exe" profile="Music" />
+			<APP name="Microsoft.Media.Player.exe" profile="Music" />
+			<APP name="iTunes.exe" profile="Music" />
+			<APP name="video.ui.exe" profile="Movie" />
+			<APP name="vlc.exe" profile="Music" />
+			<APP name="dolbyuwp.exe" profile="Movie" />
+			<APP name="spotify.exe" profile="Music" />
+			<APP name="hulu.gibson.exe" profile="Movie" />
+			<APP name="95FE1D22.VUDUMoviesandTV_0wkekwh8d6p78!App" profile="Movie" />
+			<APP name="PandoraMediaInc.29680B314EFC2_n619g4d5j0fnw!App" profile="Music"/>
+			<APP name="4DF9E0F8.Netflix_mcm4njqhnhss8!Netflix.App" profile="Movie" />
+			<APP name="SmartRemote.exe" profile="Movie"/>
+			<APP name="qqmusic.exe" profile="Music" />
+			<APP name="baidumusic.exe" profile="Music" />
+			<APP name="kugou.exe" profile="Music" />
+			<APP name="cloudmusic.exe" profile="Music" />
+			<APP name="neteasemusic.exe" profile="Music" />
+			<APP name="windows.media.backgroundplayback.exe" profile="Music" />
+			<APP name="kwwebkit.exe" profile="Music" />
+			<APP name="kwservice.exe" profile="Music" />
+			<APP name="youkudesktop.exe" profile="Movie"/>
+			<APP name="youkumediacenter.exe" profile="Movie"/>
+			<APP name="youkunplayer.exe" profile="Movie"/>
+			<APP name="youku2019.exe" profile="Movie"/>
+			<APP name="qyplayer.exe" profile="Movie"/>
+			<APP name="qyclient.exe" profile="Movie"/>
+			<APP name="qqvideouwp.exe" profile="Movie"/>
+			<APP name="qqlive.exe" profile="Movie"/>
+			<APP name="cbox.exe" profile="Movie"/>
+			<APP name="mgtv.exe" profile="Movie"/>
+			<APP name="xmp.exe" profile="Movie"/>
+			<APP name="stormplayer.exe" profile="Movie"/>
+			<APP name="qqplayer.exe" profile="Movie"/>
+			<APP name="qqLiveBrowser.exe" profile="Movie"/>
+			<APP name="qqLiveplayerHD.exe" profile="Movie"/>
+			<APP name="miguapp.exe" profile="Movie"/>
+			<APP name="kmplayer64.exe" profile="Movie" />
+			<APP name="shplayer.exe" profile="Movie"/>
+			<APP name="rrshare.exe" profile="Movie"/>
+			<APP name="xiamipc.exe" profile="Music"/>
+			<APP name="bilibili3.exe" profile="Movie"/>
+			<APP name="douyulive.exe" profile="Music"/>
+			<APP name="huyaclient.exe" profile="Music"/>
+			<APP name="huyaservice.exe" profile="Music"/>
+			<APP name="dy_service.exe" profile="Music"/>
+			<APP name="rpcmediadecoder.exe" profile="Music"/>
+			<APP name="huyavideoplay.exe" profile="Music"/>
+			<APP name="huyaplayermodule.exe" profile="Music"/>
+			<APP name="runtimebroker.exe" profile="Music"/>
+			<APP name="huyauwp.exe" profile="Music"/>
+			<APP name="douyuuwp.exe" profile="Music"/>
+			<APP name="hjlive.exe" profile="Music"/>
+			<APP name="wechatapp.exe" profile="Music"/>
+			<APP name="SystemSettings.exe" profile="Record" renderOnlyProfile="Music" />
+			<APP name="rundll32.exe" profile="Record" renderOnlyProfile="Music" />
+		</Applications>
+		<Applications priority="3">
+			<APP name="microsoftedgecp.exe" profile="Movie" />
+			<APP name="msedge.exe" profile="Movie" />
+			<APP name="microsoftedgebchost.exe" profile="Movie" />
+			<APP name="chrome.exe" profile="Movie" />
+			<APP name="iexplore.exe" profile="Movie" />
+			<APP name="facebook.exe" profile="Music" />
+			<APP name="youdaodict.exe" profile="Music" />
+			<APP name="firefox.exe" profile="Movie" />
+			<APP name="qqbrowser.exe" profile="Movie" />
+			<APP name="360se.exe" profile="Movie" />
+			<APP name="360chrome.exe" profile="Movie" />
+			<APP name="sogouexplorer.exe" profile="Movie" />
+			<APP name="liebao.exe" profile="Movie" />
+			<APP name="realplay.exe" profile="Movie" />
+		</Applications>
+		<Applications priority="4">
+			<APP name="leagueclient.exe" profile="Game" />
+			<APP name="dnf.exe" profile="Game" />
+			<APP name="gameapp.exe" profile="Game" />
+			<APP name="asphalt8.exe" profile="Game" />
+			<APP name="hearthstone.exe" profile="Game" />
+			<APP name="csgo.exe" profile="Game" />
+			<APP name="witcher3.exe" profile="Game" />
+			<APP name="crossfire.exe" profile="Game" />
+			<APP name="ntcls_daemon.exe" profile="Game" />
+			<APP name="battle.net.exe" profile="Game" />
+			<APP name="mhmain.exe" profile="Game" />
+			<APP name="dota2.exe" profile="Game" />
+			<APP name="tgame.exe" profile="Game" />
+		</Applications>
+		<Applications priority="5">
+			<APP name="[system process]" profile="Beep" />
+			<APP name="AudioToolbox.exe" profile="Voice4" renderOnlyProfile="Voice4" />
+			<APP name="audiotoolbox-x64.exe" profile="Voice4" renderOnlyProfile="Voice4" />
+		</Applications>
+	</DefaultSettings>
+</Config>

@@ -1,0 +1,92 @@
+;
+; USBDriver.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=USBDevice
+ClassGuid={88BAE032-5A81-49f0-BC3D-A4FF138216D6}
+Provider=%ManufacturerName%
+CatalogFile=USBDriver.cat
+PnpLockDown=1
+DriverVer = 04/11/2022,15.59.28.871
+
+[DestinationDirs]
+DefaultDestDir = 12
+USBDriver_Device_CoInstaller_CopyFiles = 11
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+USBDriver.sys  = 1,,
+;
+
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTARM64
+
+[Standard.NTARM64]
+%USBDriver.DeviceDesc%=USBDriver_Device, USB\VID_12D1&PID_10B8&MI_01
+
+[USBDriver_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+USBDriver.sys
+
+[USBDriver_Device.NT.HW]
+AddReg=USBDriver_AddReg
+
+[USBDriver_AddReg]
+; By default, USBDevice class uses iProduct descriptor to name the device in
+; Device Manager on Windows 8 and higher.
+; Uncomment for this device to use %DeviceName% on Windows 8 and higher:
+;HKR,,FriendlyName,,%USBDriver.DeviceDesc%
+HKR,"WDF","WdfDirectedPowerTransitionEnable",0x00010001,1
+
+;-------------- Service installation
+[USBDriver_Device.NT.Services]
+AddService = USBDriver,%SPSVCINST_ASSOCSERVICE%, USBDriver_Service_Inst
+
+; -------------- USBDriver driver install sections
+[USBDriver_Service_Inst]
+DisplayName    = %USBDriver.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\USBDriver.sys
+
+;
+;--- USBDriver_Device Coinstaller installation ------
+;
+
+[USBDriver_Device.NT.CoInstallers]
+AddReg=USBDriver_Device_CoInstaller_AddReg
+CopyFiles=USBDriver_Device_CoInstaller_CopyFiles
+
+[USBDriver_Device_CoInstaller_AddReg]
+;
+
+
+[USBDriver_Device_CoInstaller_CopyFiles]
+;
+
+
+[USBDriver_Device.NT.Wdf]
+KmdfService =  USBDriver, USBDriver_wdfsect
+[USBDriver_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="Huawei Device Co., Ltd." ;TODO: Replace with your manufacturer name
+ClassName="Universal Serial Bus devices"
+DiskName = "USBDriver Installation Disk"
+USBDriver.DeviceDesc = "USB device"
+USBDriver.SVCDESC = "USBDriver Service"
+REG_MULTI_SZ = 0x00010000

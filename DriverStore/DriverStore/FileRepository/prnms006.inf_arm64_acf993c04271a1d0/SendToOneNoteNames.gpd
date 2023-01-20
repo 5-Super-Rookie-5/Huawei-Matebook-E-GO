@@ -1,0 +1,18 @@
+*%
+*% Copyright (c) Microsoft Corporation
+*%
+*% All rights reserved.
+
+*CodePage: 1252      *% Windows 3.1 US (ANSI) code page
+
+*Feature: RESDLL
+{
+    *Name: "resource dll files"
+    *ConcealFromUI?: TRUE
+
+    *Option: UniresDLL
+    {
+        *Name: "unires.dll"
+    }
+}
+
